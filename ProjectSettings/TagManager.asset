@@ -54,3 +54,6 @@ TagManager:
   - name: Enemigo
     uniqueID: 3764670071
     locked: 0
+  - name: Arma
+    uniqueID: 533725353
+    locked: 0
