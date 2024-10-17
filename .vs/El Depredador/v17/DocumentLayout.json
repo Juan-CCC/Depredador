@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\ataquecac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\ataquecac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\predatormove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\predatormove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemigo.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Enemigo.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Enemigo.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Enemigo.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\Enemigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T05:44:21.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AtaqueCaC.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T05:06:18.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CheckGround.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\CheckGround.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\CheckGround.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\CheckGround.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\CheckGround.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:36:24.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PredatorMove.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:12:09.625Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Archivos de Unity para ignorar
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Archivos de cache y configuraciones
+[Dd]ebug/
+UserSettings/
+
+# Archivos de Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Git
+.git/
