@@ -57,3 +57,6 @@ TagManager:
   - name: Arma
     uniqueID: 533725353
     locked: 0
+  - name: Capsula
+    uniqueID: 327163335
+    locked: 0

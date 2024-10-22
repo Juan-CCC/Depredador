@@ -11,7 +11,7 @@ public class CheckGround : MonoBehaviour
         isGrounded = true;
     }
 
-    private void InTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         isGrounded = false;
     }
