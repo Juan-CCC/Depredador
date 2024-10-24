@@ -60,3 +60,6 @@ TagManager:
   - name: Capsula
     uniqueID: 327163335
     locked: 0
+  - name: Lazer
+    uniqueID: 20200337
+    locked: 0

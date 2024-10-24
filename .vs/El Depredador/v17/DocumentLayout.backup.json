@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\disparopredator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\disparopredator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\alienmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\alienmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\predatormove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\predatormove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\capsula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\armamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\armamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\lazer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\lazer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\tiempovidalazer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\tiempovidalazer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\capsula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\capsula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\rangoalien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\rangoalien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\hitalien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\hitalien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\camara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\camara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\ataquecac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\ataquecac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\assets\\sprites\\scripts\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +62,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Armamento.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Armamento.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Armamento.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Armamento.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\Armamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:37:06.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TiempoVidaLazer.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\TiempoVidaLazer.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\TiempoVidaLazer.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\TiempoVidaLazer.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\TiempoVidaLazer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:34:43.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lazer.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Lazer.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Lazer.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Lazer.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\Lazer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:55:16.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlienMovement.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AlienMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\AlienMovement.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AlienMovement.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\AlienMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T22:08:31.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RangoAlien.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\RangoAlien.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\RangoAlien.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\RangoAlien.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\RangoAlien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T22:06:53.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DisparoPredator.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\DisparoPredator.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\DisparoPredator.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\DisparoPredator.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\DisparoPredator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:01:45.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PredatorMove.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCoAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:12:09.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HitAlien.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\HitAlien.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\HitAlien.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\HitAlien.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\HitAlien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:21:14.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Camara.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Camara.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Camara.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Camara.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\Camara.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:50:21.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Capsula.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Capsula.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Capsula.cs",
               "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Capsula.cs",
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\Capsula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T03:09:07.472Z"
+              "WhenOpened": "2024-10-21T03:09:07.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Enemigo.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Enemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Enemigo.cs",
               "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Enemigo.cs",
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\Enemigo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T05:44:21.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "AtaqueCaC.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
               "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T05:06:18.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "CheckGround.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\CheckGround.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\CheckGround.cs",
@@ -78,20 +225,7 @@
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\CheckGround.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:36:24.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PredatorMove.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
-              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
-              "RelativeToolTip": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA+wBYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:12:09.625Z"
+              "WhenOpened": "2024-10-14T15:36:24.04Z"
             }
           ]
         }
