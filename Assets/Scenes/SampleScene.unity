@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 992783953}
   - component: {fileID: 992783955}
   - component: {fileID: 992783954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8660,6 +8660,8 @@ GameObject:
   - component: {fileID: 1208109295}
   - component: {fileID: 1208109294}
   - component: {fileID: 1208109293}
+  - component: {fileID: 1208109298}
+  - component: {fileID: 1208109299}
   m_Layer: 3
   m_Name: Alien
   m_TagString: Enemigo
@@ -8741,7 +8743,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208109292}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -8827,6 +8829,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208109298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208109292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe21a79e75d9ba489d3fcea8a851f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 2
+  runSpeed: 4
+  detectionRange: 6
+  changeDirectionInterval: 3
+  animator: {fileID: 1208109293}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &1208109299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208109292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1eb7e9993bda54d9de91855154dc95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 20
 --- !u!1 &1219794254
 GameObject:
   m_ObjectHideFlags: 0

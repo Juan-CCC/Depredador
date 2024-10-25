@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class HitAlien : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D coll)
+    /*void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.CompareTag("Player"))
         {
             print("Daño");
         }
-    }
+    }*/
 
     // Start is called before the first frame update
     void Start()

@@ -15,9 +15,9 @@ public class Enemigo : MonoBehaviour
 
     public void TomarDano(float dano)
     {
-        vida = dano;
+        vida -= dano;  // Restar el daño a la vida actual
 
-        if(vida <= 0)
+        if (vida <= 0)
         {
             Muerte();
         }
@@ -26,5 +26,6 @@ public class Enemigo : MonoBehaviour
     private void Muerte()
     {
         animator.SetTrigger("muerte");
+        Destroy(gameObject, 1f);  // Destruir el enemigo después de 1 segundo (opcional)
     }
 }

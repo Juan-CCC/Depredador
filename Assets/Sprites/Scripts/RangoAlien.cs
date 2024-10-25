@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RangoAlien : MonoBehaviour
 {
-    public Animator animator;
+    /*public Animator animator;
     public AlienMovement enemigo;
 
     private void OnTriggerEnter2D(Collider2D coll)
@@ -17,7 +17,7 @@ public class RangoAlien : MonoBehaviour
             //enemigo.atacando = true;
             GetComponent<BoxCollider2D>().enabled = false;
         }
-    }
+    }*/
 
     // Start is called before the first frame update
     void Start()
