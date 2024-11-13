@@ -12,6 +12,10 @@ public class DisparoPredator : MonoBehaviour
 
     public bool PuedeDisparar { get; set; } = false; // Variable para controlar si puede disparar
 
+    // Variables de sonido
+    public AudioSource audioSource; // Componente AudioSource para reproducir sonido
+    public AudioClip shootSound; // Clip de sonido de disparo
+
     private void Update()
     {
         if (PuedeDisparar && Input.GetKeyDown(KeyCode.V))
@@ -26,6 +30,12 @@ public class DisparoPredator : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("disparo");
+        }
+
+        // Reproducir sonido de disparo
+        if (audioSource != null && shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
         }
 
         // Instanciar la bala

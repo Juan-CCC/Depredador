@@ -10,13 +10,16 @@ public class AlienMovement : MonoBehaviour
     public float changeDirectionInterval;  // Tiempo para cambiar de dirección
     public Animator animator;  // Referencia al componente Animator
     public LayerMask groundLayer;  // Capa del suelo
+    public float attackCooldownTime; // Tiempo entre ataques
 
     private Vector2 moveDirection;  // Dirección de movimiento
     private float timeToChangeDirection;  // Tiempo restante para cambiar dirección
+    private float lastAttackTime; // Controla el tiempo entre ataques
     private Rigidbody2D rb;  // Referencia al Rigidbody2D del alien
     private GameObject player; // Referencia al personaje
-    private bool facingRight = false; // Indica si está mirando a la derecha
+    private bool facingRight = true; // Indica si está mirando a la derecha
     private bool isChasing = false; // Indica si está persiguiendo al personaje
+    private bool isAttacking = false; //Indica si el enemigo esta atacando
 
     // Método Start se ejecuta al iniciar el juego
     void Start()
@@ -30,54 +33,60 @@ public class AlienMovement : MonoBehaviour
     // Método Update se ejecuta una vez por cada frame
     void Update()
     {
-        // Detectar si el personaje está dentro del rango de detección
-        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-        if (distanceToPlayer <= detectionRange)
+        if (!isAttacking)
         {
-            isChasing = true; // Iniciar persecución
-        }
-        else
-        {
-            isChasing = false; // Dejar de perseguir
-        }
-
-        // Cambiar dirección si no está persiguiendo al personaje
-        if (!isChasing)
-        {
-            timeToChangeDirection -= Time.deltaTime;
-            if (timeToChangeDirection <= 0)
+            // Detectar si el personaje está dentro del rango de detección
+            float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer <= detectionRange)
             {
-                ChooseNewDirection();
-                timeToChangeDirection = changeDirectionInterval;
+                isChasing = true; // Iniciar persecución
+            }
+            else
+            {
+                isChasing = false; // Dejar de perseguir
+            }
+
+            // Cambiar dirección si no está persiguiendo al personaje
+            if (!isChasing)
+            {
+                timeToChangeDirection -= Time.deltaTime;
+                if (timeToChangeDirection <= 0)
+                {
+                    ChooseNewDirection();
+                    timeToChangeDirection = changeDirectionInterval;
+                }
+            }
+
+            // Actualizar animación: correr o caminar según el estado
+            if (isChasing)
+            {
+                Debug.Log("El enemigo está persiguiendo al personaje.");
+                animator.SetBool("run", true);
+                animator.SetBool("walk", false);
+            }
+            else
+            {
+                animator.SetBool("run", false);
+                animator.SetBool("walk", moveDirection != Vector2.zero);
             }
         }
-
-        // Actualizar animación: correr o caminar según el estado
-        if (isChasing)
-        {
-            Debug.Log("El enemigo está persiguiendo al personaje.");
-            animator.SetBool("run", true);
-            animator.SetBool("walk", false);
-        }
-        else
-        {
-            animator.SetBool("run", false);
-            animator.SetBool("walk", moveDirection != Vector2.zero);
-        }
+        
     }
 
     private void FixedUpdate()
     {
-        if (IsGrounded())
+        if (!isAttacking && IsGrounded())
         {
             if (isChasing)
             {
                 // Perseguir al personaje con mayor velocidad
+                // Calcular dirección solo en el eje X para mantener al enemigo en el suelo
                 Vector2 directionToPlayer = (player.transform.position - transform.position).normalized;
-                rb.MovePosition(rb.position + directionToPlayer * runSpeed * Time.fixedDeltaTime);
+                Vector2 horizontalDirection = new Vector2(directionToPlayer.x, 0); // Solo moverse en X
+                rb.MovePosition(rb.position + horizontalDirection * runSpeed * Time.fixedDeltaTime);
 
                 // Ajustar la orientación del enemigo al personaje
-                if ((directionToPlayer.x > 0 && !facingRight) || (directionToPlayer.x < 0 && facingRight))
+                if ((horizontalDirection.x > 0 && !facingRight) || (horizontalDirection.x < 0 && facingRight))
                 {
                     Flip();
                 }
@@ -124,5 +133,69 @@ public class AlienMovement : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, 1f, groundLayer);
         return hit.collider != null;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && isChasing /*&& Time.time >= lastAttackTime + attackCooldownTime*/)
+        {
+            Debug.Log("Enemigo ha colisionado con el jugador y está en modo de ataque.");
+
+            isAttacking = true;
+            //isChasing = false;
+            animator.SetBool("attack", true); // Activar animación de ataque
+            animator.SetBool("run", false);
+            animator.SetBool("walk", false);
+
+            // Asegurarse de que el enemigo permanezca en el suelo al atacar
+            rb.velocity = Vector2.zero;  // Detener cualquier movimiento en Y
+            Vector2 groundedPosition = new Vector2(transform.position.x, rb.position.y);
+            rb.MovePosition(groundedPosition);
+
+            /*lastAttackTime = Time.time; // Actualizar el último tiempo de ataque
+
+            // Infligir daño al personaje
+            VidaPredator vidaPredator = collision.gameObject.GetComponent<VidaPredator>();
+            if (vidaPredator != null)
+            {
+                vidaPredator.TakeDamage(5); // Asume que cada ataque inflige 20 puntos de daño
+                Debug.Log("Daño infligido al jugador."); // Confirmación de que se aplica el daño
+            }
+            else
+            {
+                Debug.Log("Componente VidaPredator no encontrado en el jugador.");
+            }*/
+
+            // Llamar a una función que desactive el estado de ataque después de la animación
+            //StartCoroutine(AttackCooldown());
+
+            StartCoroutine(ApplyDamageOverTime(collision.gameObject));
+        }
+    }
+
+    private IEnumerator ApplyDamageOverTime(GameObject player)
+    {
+        VidaPredator vidaPredator = player.GetComponent<VidaPredator>();
+        while (isAttacking && vidaPredator != null && vidaPredator.currentHealth > 0)
+        {
+            vidaPredator.TakeDamage(5); // Ajusta el daño aquí
+            
+            Debug.Log("Daño infligido al jugador.");
+            yield return new WaitForSeconds(attackCooldownTime); // Espera antes de infligir el próximo daño
+        }
+
+        animator.SetBool("attack", false); // Desactiva la animación de ataque cuando termine el daño
+        isAttacking = false;
+    }
+
+    /*private IEnumerator AttackCooldown()
+    {
+        // Esperar a que termine la animación de ataque (ajusta el tiempo según la duración de la animación)
+        yield return new WaitForSeconds(0.2f); // Breve pausa para que el enemigo permanezca en la animación de ataque
+        //animator.SetBool("attack", false); // Desactivar animación de ataque
+        yield return new WaitForSeconds(attackCooldownTime - 0.2f); // Esperar hasta el siguiente ataque permitido
+
+        //isAttacking = false;
+        //isChasing = true; // Reanudar la persecución
+    }*/
 
 }
