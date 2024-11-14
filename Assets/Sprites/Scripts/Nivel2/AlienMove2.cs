@@ -14,7 +14,7 @@ public class AlienMove2 : MonoBehaviour
     public float minX; // Límite mínimo de X
     public float maxX; // Límite máximo de X
 
-    public int damage = 10;  // Cantidad de daño que el enemigo inflige
+    public int damage;  // Cantidad de daño que el enemigo inflige
     public float attackCooldown = 2f;  // Tiempo de espera entre ataques
 
     private Vector2 moveDirection;  // Dirección de movimiento
@@ -123,6 +123,13 @@ public class AlienMove2 : MonoBehaviour
 
     private void AttackPlayer()
     {
+        // Activa la animación de ataque
+        if (animator != null)
+        {
+            animator.SetTrigger("attack"); // 'attack' es el nombre del trigger en el Animator
+        }
+
+        // Aplica daño al jugador
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(damage); // Llama al método de daño en el personaje

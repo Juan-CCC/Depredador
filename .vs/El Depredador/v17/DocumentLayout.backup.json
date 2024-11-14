@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\nivel4\\navedespegue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\nivel4\\navedespegue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|c:\\users\\carlo\\documents\\proyecto\\el depredador\\assets\\sprites\\scripts\\barravida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94C0210E-3D47-1F37-4304-5766E29E8902}|Assembly-CSharp.csproj|solutionrelative:assets\\sprites\\scripts\\barravida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -103,6 +107,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NaveDespegue.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel4\\NaveDespegue.cs",
+              "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel4\\NaveDespegue.cs",
+              "ToolTip": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel4\\NaveDespegue.cs",
+              "RelativeToolTip": "Assets\\Sprites\\Scripts\\Nivel4\\NaveDespegue.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:04:47.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BarraVida.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\BarraVida.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\BarraVida.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CambioNivel.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel2\\CambioNivel.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel2\\CambioNivel.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VidaPredator.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\VidaPredator.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\VidaPredator.cs",
@@ -135,12 +152,11 @@
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\VidaPredator.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAQwEwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T08:17:24.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T08:17:24.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "VidaAlien2.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel2\\VidaAlien2.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel2\\VidaAlien2.cs",
@@ -148,12 +164,11 @@
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\Nivel2\\VidaAlien2.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T05:13:26.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T05:13:26.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AlienMove2.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel2\\AlienMove2.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel2\\AlienMove2.cs",
@@ -161,12 +176,11 @@
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\Nivel2\\AlienMove2.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:05:03.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T23:05:03.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AlienMovement.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AlienMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\AlienMovement.cs",
@@ -174,12 +188,11 @@
               "RelativeToolTip": "Assets\\Sprites\\Scripts\\AlienMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwLMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T22:08:31.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T22:08:31.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DisparoPredator.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\DisparoPredator.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\DisparoPredator.cs",
@@ -191,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VidaAlien.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\VidaAlien.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\VidaAlien.cs",
@@ -203,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Trampa.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel3\\Trampa.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel3\\Trampa.cs",
@@ -215,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AlienLava.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel3\\AlienLava.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel3\\AlienLava.cs",
@@ -227,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MenuInicio.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Menu\\MenuInicio.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Menu\\MenuInicio.cs",
@@ -239,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AtaqueAlienLava.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Nivel3\\AtaqueAlienLava.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Nivel3\\AtaqueAlienLava.cs",
@@ -251,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RangoAlien.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\RangoAlien.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\RangoAlien.cs",
@@ -263,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AtaqueCaC.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\AtaqueCaC.cs",
@@ -275,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PredatorMove.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\PredatorMove.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\PredatorMove.cs",
@@ -287,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Lazer.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Lazer.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Lazer.cs",
@@ -299,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HitAlien.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\HitAlien.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\HitAlien.cs",
@@ -311,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TiempoVidaLazer.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\TiempoVidaLazer.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\TiempoVidaLazer.cs",
@@ -323,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Armamento.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Armamento.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Armamento.cs",
@@ -335,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Camara.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Camara.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Camara.cs",
@@ -347,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Capsula.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\Capsula.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\Capsula.cs",
@@ -359,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CheckGround.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\Documents\\Proyecto\\El Depredador\\Assets\\Sprites\\Scripts\\CheckGround.cs",
               "RelativeDocumentMoniker": "Assets\\Sprites\\Scripts\\CheckGround.cs",
