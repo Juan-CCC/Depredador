@@ -18,7 +18,7 @@ public class DisparoPredator : MonoBehaviour
 
     private void Update()
     {
-        if (PuedeDisparar && Input.GetKeyDown(KeyCode.V))
+        if (PuedeDisparar && Input.GetKeyDown(KeyCode.C))
         {
             Disparo();
         }

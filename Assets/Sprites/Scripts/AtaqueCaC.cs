@@ -25,7 +25,7 @@ public class AtaqueCaC : MonoBehaviour
             tiempoSiguienteAtaque -= Time.deltaTime;
         }*/
 
-        if (Input.GetKeyDown(KeyCode.E)/* && tiempoSiguienteAtaque <= 0*/)
+        if (Input.GetKeyDown(KeyCode.X)/* && tiempoSiguienteAtaque <= 0*/)
         {
             Golpe();
             //tiempoSiguienteAtaque = tiempoEntreAtaques;
